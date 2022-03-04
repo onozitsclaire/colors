@@ -6,17 +6,27 @@
         - select special container background: rgba(0, 0, 0, 0.9)  */
 
 body {
+  background: #f1f5f9; /* I did this correctly (except I just used fff instead of the other, but still white) */
+}
+
+.container {
+  /* I did this one wrong, I used div instead of container */
   background: #fff;
 }
 
-div {
-  background: #fff;
-}
+/* h3 {
+  /* I did this one correct! */
+  color: #645cff; 
+}*/ 
 
-h3 {
+div h3{
   color: #645cff;
 }
 
+p {
+  color: #6474ab; /* He didn't put this in his instructions, but it was in the answer, so I added it. */
+}
+
 .specialcontainer {
-  background: rgba (0, 0, 0);
+  background: rgba (0, 0, 0, 0.9); /* I did this correctly */
 }
