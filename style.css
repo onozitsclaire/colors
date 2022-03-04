@@ -1,0 +1,22 @@
+/* CSS Style Sheet */
+/* ### CSS (styles)
+        - select body and add background #f1f5f9
+        - select all containers and add background #fff
+        - select all h3 and set color: #645cff;
+        - select special container background: rgba(0, 0, 0, 0.9)  */
+
+body {
+  background: #fff;
+}
+
+div {
+  background: #fff;
+}
+
+h3 {
+  color: #645cff;
+}
+
+.specialcontainer {
+  background: rgba (0, 0, 0);
+}
